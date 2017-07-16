@@ -1,0 +1,20 @@
+{
+  "name": "log-viewer",
+  "version": "1.0.0",
+  "description": "Log Viewer",
+  "main": "index.js",
+  "scripts": {
+  	"start":"nodemon server",
+    "postinstall": "bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "goelvarun88@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.8.0",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
